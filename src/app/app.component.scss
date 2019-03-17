@@ -1,0 +1,40 @@
+@import '../styles.scss';
+
+.table {
+  border: 5px solid $blu;
+}
+
+.flex {
+  display: flex;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.wordColumn {
+  list-style: none;
+}
+
+.wordColumn li {
+  width:150px;
+  height: 150px;
+  overflow:hidden;
+}
+
+.wordItem {
+  height: 100px;
+  width: 150px;
+  border:1px solid $pink;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+  
+  &:hover{
+    text-decoration: line-through;
+    color: $white;
+    font-size: 2rem;
+  }
+
+}

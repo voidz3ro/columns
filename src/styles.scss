@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+$pink: rgba(255, 61, 132, 1);
+$blu: rgba(26, 203, 204, 1);
+$yella: rgba(247, 246, 25, 1);
+$dark: rgba(25, 25, 25, 1);
+$white: rgba(249, 249, 249, 1);
+
+body {
+  background-color: $dark;
+  color:$white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+}
+
+input {
+  height:30px; 
+  width: 500px;
+  font-size:20px;
+}
+
+h1,h2,h3 {
+  font-weight:100;
+}
+
+button {
+  background-color: $dark;
+  height:36px;
+  border:1px solid $blu;
+  color:$yella;
+  margin: 0px 0px 0px 5px;
+  cursor: pointer;
+}
