@@ -1,6 +1,6 @@
 <div>
   <h2>Give me some words, bro:</h2>
-  <input type="text" name="words" id="words" #inputString [(ngModel)]="strVal" />
+  <input type="text" name="words" id="words" [(ngModel)]="strVal" />
   <button (click)="setWords()">Sort em</button>
   <h2>We'll sort your words, here:</h2>
   <div class="flex row" *ngIf="columns">
